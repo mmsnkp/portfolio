@@ -16,10 +16,9 @@ body{
 
 /*----------------------------------------------------------*/
 .title{
-	margin-top: 50px;
-	margin-bottom: 50px;
-	margin-left: auto;
-    margin-right: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: 0px auto;
     text-align: center;
 }
 .title-text{
@@ -64,16 +63,12 @@ body{
 
 
 #menu{
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: auto;
-    margin-right: auto;
-	width: 600px;
+	width: 100%;
 	background-color: white;
 	display: flex;
 	justify-content: center;
-	border: 2px solid rgb(240, 240, 240);
-	border-radius: 5px;
+	border-top: 2px solid rgb(240, 240, 240);
+	border-bottom: 2px solid rgb(240, 240, 240);
 	font-size: 1.5rem;
 }
 .menu-element{
@@ -96,6 +91,13 @@ body{
 	vertical-align: middle;
 }
 #menu.fixed{
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.5);
+	display: flex;
+	justify-content: center;
+	border-top: 2px solid rgba(240, 240, 240, 0.5);
+	border-bottom: 2px solid rgba(240, 240, 240, 0.5);
+	font-size: 1.5rem;
 	position: fixed;
 	top: 0px;
 	left: 0px;
