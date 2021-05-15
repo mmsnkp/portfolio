@@ -19,8 +19,15 @@ function smoothMenu(e){
 		return;
 	}
 	e.preventDefault();
-	let target = document.querySelector("#" + splittedURL[1]);
-	window.scroll({top: target.offsetTop, behavior: "smooth"});
+	let target = getScrollTarget(splittedURL[1]);
+	window.scroll({top: target, behavior: "smooth"});
+}
+function getScrollTarget(targetId){
+	if(0 >= targetId.length){
+		return 0;
+	}else{
+		return document.querySelector("#" + targetId).offsetTop;
+	}
 }
 
 

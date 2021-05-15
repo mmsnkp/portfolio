@@ -202,9 +202,45 @@ body{
 	bottom: 0;
 }
 .footer-arrow{
-	width: 80px;
-	height: 80px;
+	width: 60px;
+	height: 60px;
 	cursor: pointer;
 }
 /*----------------------------work introduction------------------------------*/
+.workIntroduction{
+	text-align: center;
+	margin: 0px auto;
+	max-width: 600px;
+}
+.workIntroduction-main{
+	padding-bottom: 50px;
+}
+.workIntroduction-image{
+	border: 2px solid rgb(200, 200, 200);
+	border-radius: 5px;
+}
+.workIntroduction-description{
+	text-align: left;
+}
+.workIntroduction-paragraph{
+	padding: 20px 0px;
+	text-align: left;
+}
+.subtitle{
+	font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
