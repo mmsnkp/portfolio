@@ -2,8 +2,8 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="description" content="自動生成迷路の解説です。">
-	<title>自動生成迷路</title>
+	<meta name="description" content="ボンブリス再現の解説です。">
+	<title>ボンブリス再現</title>
 	<link href="../css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -23,26 +23,22 @@
 		<!-- workIntroduction -->
 		<div class="workIntroduction">
 			<div class="title">
-				<h1 class="title-text">自動生成迷路</h1>
+				<h1 class="title-text">ボンブリス再現</h1>
 			</div>
 			<div class="workIntroduction-main">
-				<img src="../images/maze_mini.png", alt="自作自動生成迷路の画像", class="workIntroduction-image">
-				<p class="workIntroduction-description">　迷路を自動で生成して遊ぶことができる。迷路はランダムに生成されるため、生成されるたびに異なり、起動する度に異なる迷路を遊ぶことができる。<br>
-				　迷路の大きさは設定で変えられ、小さく簡単な迷路も大きく難しい迷路も生成することができる。<br>
-				　ゴールまでの経路を検索し、答えを表示する機能もある。</p>
+				<img src="../images/bombliss_mini.png", alt="ボンブリス再現の画像", class="workIntroduction-image">
+				<p class="workIntroduction-description">　ボンブリスというゲームを再現。テトリスをベースとしたゲームで、落ちてくるブロックの中に爆弾ブロックが入っている。ラインを揃えるとライン内にある爆弾ブロックが爆発し、周囲のブロックを消すことができる。爆弾の爆発の範囲は、同時に揃えたラインの数が多いほど広くなる。<br>
+				　爆弾ブロックの爆発は誘爆し、周囲の爆弾ブロックも爆発させる。これによって周囲のブロックを一気に消すことができる。<br>
+				　そのほか、爆弾ブロックを4つ固めると「デカボム」に変化する。爆発の範囲が大きく広がるため、これを使っても周囲のブロックを一気に消すことができる。</p>
 			</div>
 			
 			<div class="workIntroduction-paragraph">
 				<h4 class="subtitle">使用した言語、ライブラリなど</h4>
-				<p class="workIntroduction-detail">　C言語と、大学の教授が作成したグラフィクスライブラリを使用して作成。</p>
+				<p class="workIntroduction-detail">　Unity上でC#を使用して作成。</p>
 			</div>
 			<div class="workIntroduction-paragraph">
 				<h4 class="subtitle">作成の経緯</h4>
-				<p class="workIntroduction-detail">　大学1回生前期のときのプログラミングの授業にて、最終課題として自由制作が課された際に作成。</p>
-			</div>
-			<div class="workIntroduction-paragraph">
-				<h4 class="subtitle">アルゴリズム</h4>
-				<p class="workIntroduction-detail">　迷路の自動生成は、穴掘り法をベースに作成。ゴールまでの経路の探索にはダイクストラ法を使用。</p>
+				<p class="workIntroduction-detail">　自身が通っている就労移行支援事業所で、スタッフが昔遊んでいたというゲームを再現することになり作成。</p>
 			</div>
 			
 		</div>
@@ -57,12 +53,12 @@
 			</div>
 			<div class="gallery-list">
 				<div class="gallery-element">
-					<img src="../images/works/maze/miniMaze.png", alt="小さい自動生成迷路の画像", class="gallery-image">
-					<p class="gallery-description">大きさの設定を変更して生成</p>
+					<img src="../images/works/bombliss/tetris.png", alt="通常テトリスモードの画像", class="gallery-image">
+					<p class="gallery-description">通常テトリスモード</p>
 				</div>
 				<div class="gallery-element">
-					<img src="../images/works/maze/answer.png", alt="答えを表示した迷路の画像", class="gallery-image">
-					<p class="gallery-description">答えを表示する機能</p>
+					<img src="../images/works/bombliss/mega.png", alt="デカボムの画像", class="gallery-image">
+					<p class="gallery-description">デカボム</p>
 				</div>
 			</div>
 		</div>
