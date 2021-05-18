@@ -116,7 +116,11 @@ body{
 
 .profile{
 	text-align: center;
-	margin: 100px 0px;
+	margin: 100px auto;
+	max-width: 600px;
+}
+.profile-detail{
+	text-align: left;
 }
 
 
