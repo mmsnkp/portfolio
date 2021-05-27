@@ -122,6 +122,16 @@ body{
 .profile-detail{
 	text-align: left;
 }
+.profile-name{
+	font-size: 1.5rem;
+	padding: 10px 0px;
+}
+.profile-birthday{
+	padding: 10px 0px;
+}
+.profile-education{
+	padding: 10px 0px;
+}
 
 
 
