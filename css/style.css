@@ -160,9 +160,7 @@ body{
 }
 .works-element{
 	background-color: rgb(150, 150, 150);
-	display: flex;
-	min-width: 500px;
-	max-width: 600px;
+	width: 250px;
 	padding: 10px;
 	margin: 10px;
 	border: 2px solid rgb(200, 200, 200);
@@ -174,17 +172,15 @@ body{
 	transition: opacity 0.2s;
 }
 .works-image{
-	width: 300px;
-	height: 225px;
+	width: 100%;
+	height: auto;
 	border: 2px solid rgb(200, 200, 200);
 }
 .works-text{
-	margin-left: 10px;
 	color: white;
 }
 .works-name{
 	text-align: center;
-	margin: 10px 0px;
 	font-size: 1.2rem;
 }
 .works-language{
